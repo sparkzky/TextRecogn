@@ -21,13 +21,13 @@ Uncovering AIGC Texts with Machine Learning
 If you want to build image yourself, following the scripts:
 
 ```shell
-docker build -t loooongjin/text_recogn:ernie3-nano .
+docker build -t sparkzky/aigc-checker:base-zh .
 ```
 
 Or you can pull the docker image:
 
 ```shell
-docker pull loooongjin/text_recogn:ernie3-nano
+docker pull sparkzky/aigc-checker:base-zh
 ```
 
 
@@ -35,7 +35,7 @@ docker pull loooongjin/text_recogn:ernie3-nano
 
 
 ```shell
-docker run --rm -it -p 8000:8000 loooongjin/text_recogn:ernie3-nano
+docker run --rm -it -p 8000:8000 sparkzky/aigc-checker:base-zh
 ```
 
 ### 3. Check!
